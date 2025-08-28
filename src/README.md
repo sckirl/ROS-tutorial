@@ -22,6 +22,8 @@ cd ~/FILENAME
 
 ros2 pkg create --build-type ament_cmake --node-name NODE_NAME PACKAGE_NAME
 
+
+# colcon build
 colcon build --packages-select PACKAGE_NAME
 
 '''
