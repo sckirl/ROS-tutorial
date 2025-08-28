@@ -20,6 +20,14 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+
+
+            # Added
+            # ---------------------------------
+            'talker = py_pubsub.publisher:main',
+            'listener = py_pubsub.subscriber:main',
+            # END ADDED
+            # -----------------------------------
         ],
     },
 )
