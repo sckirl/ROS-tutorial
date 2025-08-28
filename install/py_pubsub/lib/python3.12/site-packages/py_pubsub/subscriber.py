@@ -4,7 +4,7 @@ from std_msgs.msg import String
 
 class MinimalSubscriber(Node):
     def __init__(self):
-        super().__init__('minimal)subscriber')
+        super().__init__('minimal_subscriber')
         self.subscription = self.create_subscription(
             String,
             'topic',
