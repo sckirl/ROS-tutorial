@@ -63,16 +63,16 @@ Changes in setup.py
 
 # RUN the colcon again (YAY)
 
-'''
+
 // bash
-colcon build --packages-select <PACKAGE_NAME>
+`colcon build --packages-select <PACKAGE_NAME>`
 
 or 
 
-colcon build
-source install/setup.bash
+`colcon build
+source install/setup.bash`
 
-ros2 run <PACKAGE_NAME> <NODE_NAME>
+`ros2 run <PACKAGE_NAME> <NODE_NAME>`
 '''
 
 # Its tideous right?
@@ -80,6 +80,7 @@ ros2 run <PACKAGE_NAME> <NODE_NAME>
 
 # .. THERE IS! This is where LAUNCH comes in
 
-'''
-ros2 launch <PACKAGE_NAME> <LAUNCH_FILE>
-'''
+`ros2 launch <PACKAGE_NAME> <LAUNCH_FILE>`
+
+# STEP 2 VISUALIZATION
+[VISUALIZATION](/VISUALIZATION.md)
