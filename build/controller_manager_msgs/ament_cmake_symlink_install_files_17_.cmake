@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/mnt/c/RNDprojects/ROS/ros2_control/controller_manager_msgs" FILES "/opt/ros/kilted/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/controller_manager_msgs/environment")

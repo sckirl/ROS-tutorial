@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/mnt/c/RNDprojects/ROS/ros2_control/controller_manager_msgs" FILES "/opt/ros/kilted/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/controller_manager_msgs/environment")

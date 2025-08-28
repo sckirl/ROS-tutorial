@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/mnt/c/RNDprojects/ROS/ros2_control/ros2_control_test_assets" FILES "/opt/ros/kilted/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ros2_control_test_assets/environment")

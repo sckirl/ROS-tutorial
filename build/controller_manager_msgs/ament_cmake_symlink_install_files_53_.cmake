@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/mnt/c/RNDprojects/ROS/ros2_control/controller_manager_msgs" FILES "/mnt/c/RNDprojects/ROS/build/controller_manager_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/controller_manager_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

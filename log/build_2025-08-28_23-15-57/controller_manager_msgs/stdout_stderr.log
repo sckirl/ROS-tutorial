@@ -1,0 +1,36 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 2.3.0 (/opt/ros/kilted/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found lifecycle_msgs: 2.3.0 (/opt/ros/kilted/share/lifecycle_msgs/cmake)
+-- Found std_msgs: 5.5.0 (/opt/ros/kilted/share/std_msgs/cmake)
+-- Found rosidl_default_generators: 1.7.1 (/opt/ros/kilted/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.9.5 (/opt/ros/kilted/share/rosidl_adapter/cmake)
+-- Found ament_cmake_cppcheck: 0.19.2 (/opt/ros/kilted/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.19.2 (/opt/ros/kilted/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_uncrustify: 0.19.2 (/opt/ros/kilted/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_ros_core: 0.14.3 (/opt/ros/kilted/share/ament_cmake_ros_core/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found ament_cmake_flake8: 0.19.2 (/opt/ros/kilted/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_pep257: 0.19.2 (/opt/ros/kilted/share/ament_cmake_pep257/cmake)
+-- Configuring done (31.3s)
+-- Generating done (3.5s)
+-- Build files have been written to: /mnt/c/RNDprojects/ROS/build/controller_manager_msgs

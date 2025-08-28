@@ -15,9 +15,9 @@ this is to enable ROS 2 Environment in python
 Everything in ROS should be running now, just do this to create your repo
 
 
-`bash mkdir -p FILENAME/src
-cd ~/FILENAME
-ros2 pkg create --build-type ament_cmake --node-name NODE_NAME PACKAGE_NAME`
+`bash mkdir -p <FILENAME>/src`
+`ros2 pkg create --build-type ament_python <FILENAME>`
+`ros2 pkg create --build-type ament_cmake --node-name NODE_NAME PACKAGE_NAME`
 
 
 Colcon build to basically build everything that we created

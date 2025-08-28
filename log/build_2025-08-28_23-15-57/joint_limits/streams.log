@@ -1,0 +1,45 @@
+[0.930s] Invoking command in '/mnt/c/RNDprojects/ROS/build/joint_limits': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/RNDprojects/ROS/install/urdf_tutorial_r2d2:/mnt/c/RNDprojects/ROS/install/py_pubsub:/opt/ros/kilted /usr/bin/cmake /mnt/c/RNDprojects/ROS/ros2_control/joint_limits -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/c/RNDprojects/ROS/install/joint_limits
+[3.012s] -- The CXX compiler identification is GNU 13.3.0
+[3.014s] -- Detecting CXX compiler ABI info
+[3.015s] -- Detecting CXX compiler ABI info - done
+[3.016s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.017s] -- Detecting CXX compile features
+[3.019s] -- Detecting CXX compile features - done
+[3.020s] -- Found ros2_control_cmake: 0.2.1 (/opt/ros/kilted/share/ros2_control_cmake/cmake)
+[3.021s] -- Compiler warnings enabled for GNU
+[3.022s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[3.023s] -- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+[4.303s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.701s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.353s] -- Found pluginlib: 5.6.0 (/opt/ros/kilted/share/pluginlib/cmake)
+[7.236s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[7.321s] -- Found realtime_tools: 4.4.0 (/opt/ros/kilted/share/realtime_tools/cmake)
+[8.085s] -- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[8.482s] -- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[8.892s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.173s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.277s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[10.387s] -- Found rmw_fastrtps_cpp: 9.3.2 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)
+[10.906s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[11.295s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[11.307s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[11.327s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.865s] -- Found rclcpp_lifecycle: 29.5.2 (/opt/ros/kilted/share/rclcpp_lifecycle/cmake)
+[14.216s] -- Found trajectory_msgs: 5.5.0 (/opt/ros/kilted/share/trajectory_msgs/cmake)
+[14.612s] -- Found urdf: 2.12.2 (/opt/ros/kilted/share/urdf/cmake)
+[15.336s] -- Found ament_cmake_gmock: 2.7.3 (/opt/ros/kilted/share/ament_cmake_gmock/cmake)
+[15.478s] -- Found generate_parameter_library: 0.5.0 (/opt/ros/kilted/share/generate_parameter_library/cmake)
+[15.620s] -- Found parameter_traits: 0.5.0 (/opt/ros/kilted/share/parameter_traits/cmake)
+[16.235s] -- Found launch_testing_ament_cmake: 3.8.2 (/opt/ros/kilted/share/launch_testing_ament_cmake/cmake)
+[16.340s] -- Found gmock sources under '/opt/ros/kilted/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[16.513s] -- The C compiler identification is GNU 13.3.0
+[16.935s] -- Detecting C compiler ABI info
+[17.706s] -- Detecting C compiler ABI info - done
+[17.741s] -- Check for working C compiler: /usr/bin/cc - skipped
+[17.742s] -- Detecting C compile features
+[17.743s] -- Detecting C compile features - done
+[18.034s] -- Found ament_cmake_gtest: 2.7.3 (/opt/ros/kilted/share/ament_cmake_gtest/cmake)
+[18.039s] -- Found gtest sources under '/opt/ros/kilted/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[19.299s] -- Configuring done (18.3s)
+[21.869s] -- Generating done (2.5s)
+[22.510s] -- Build files have been written to: /mnt/c/RNDprojects/ROS/build/joint_limits

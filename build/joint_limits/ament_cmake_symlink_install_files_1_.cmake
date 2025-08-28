@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/mnt/c/RNDprojects/ROS/ros2_control/joint_limits" FILES "test/joint_limits_rosparam.yaml" "test/joint_saturation_limiter_param.yaml" "DESTINATION" "share/joint_limits/test")

@@ -1,0 +1,37 @@
+[0.806s] Invoking command in '/mnt/c/RNDprojects/ROS/build/controller_manager_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/RNDprojects/ROS/install/urdf_tutorial_r2d2:/mnt/c/RNDprojects/ROS/install/py_pubsub:/opt/ros/kilted /usr/bin/cmake /mnt/c/RNDprojects/ROS/ros2_control/controller_manager_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/c/RNDprojects/ROS/install/controller_manager_msgs
+[2.816s] -- The C compiler identification is GNU 13.3.0
+[2.817s] -- The CXX compiler identification is GNU 13.3.0
+[2.818s] -- Detecting C compiler ABI info
+[2.941s] -- Detecting C compiler ABI info - done
+[2.985s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.986s] -- Detecting C compile features
+[2.987s] -- Detecting C compile features - done
+[3.118s] -- Detecting CXX compiler ABI info
+[3.964s] -- Detecting CXX compiler ABI info - done
+[4.005s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.006s] -- Detecting CXX compile features
+[4.007s] -- Detecting CXX compile features - done
+[4.163s] -- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+[5.721s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.199s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.681s] -- Found builtin_interfaces: 2.3.0 (/opt/ros/kilted/share/builtin_interfaces/cmake)
+[8.614s] -- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[8.997s] -- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[9.346s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.629s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.976s] -- Found lifecycle_msgs: 2.3.0 (/opt/ros/kilted/share/lifecycle_msgs/cmake)
+[10.272s] -- Found std_msgs: 5.5.0 (/opt/ros/kilted/share/std_msgs/cmake)
+[10.376s] -- Found rosidl_default_generators: 1.7.1 (/opt/ros/kilted/share/rosidl_default_generators/cmake)
+[10.803s] -- Found rosidl_adapter: 4.9.5 (/opt/ros/kilted/share/rosidl_adapter/cmake)
+[16.629s] -- Found ament_cmake_cppcheck: 0.19.2 (/opt/ros/kilted/share/ament_cmake_cppcheck/cmake)
+[16.786s] -- Found ament_cmake_cpplint: 0.19.2 (/opt/ros/kilted/share/ament_cmake_cpplint/cmake)
+[16.941s] -- Found ament_cmake_uncrustify: 0.19.2 (/opt/ros/kilted/share/ament_cmake_uncrustify/cmake)
+[17.096s] -- Found ament_cmake_ros_core: 0.14.3 (/opt/ros/kilted/share/ament_cmake_ros_core/cmake)
+[24.046s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[26.748s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[29.150s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[30.261s] -- Found ament_cmake_flake8: 0.19.2 (/opt/ros/kilted/share/ament_cmake_flake8/cmake)
+[30.417s] -- Found ament_cmake_pep257: 0.19.2 (/opt/ros/kilted/share/ament_cmake_pep257/cmake)
+[32.089s] -- Configuring done (31.3s)
+[36.188s] -- Generating done (3.5s)
+[36.913s] -- Build files have been written to: /mnt/c/RNDprojects/ROS/build/controller_manager_msgs

@@ -1,0 +1,1 @@
+Invoking command in '/mnt/c/RNDprojects/ROS/build/joint_limits': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/RNDprojects/ROS/install/urdf_tutorial_r2d2:/mnt/c/RNDprojects/ROS/install/py_pubsub:/opt/ros/kilted /usr/bin/cmake /mnt/c/RNDprojects/ROS/ros2_control/joint_limits -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/c/RNDprojects/ROS/install/joint_limits

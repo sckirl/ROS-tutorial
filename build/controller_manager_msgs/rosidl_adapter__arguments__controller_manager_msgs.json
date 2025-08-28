@@ -1,0 +1,21 @@
+{
+  "package_name": "controller_manager_msgs",
+  "non_idl_tuples": [
+    "/mnt/c/RNDprojects/ROS/ros2_control/controller_manager_msgs:msg/ControllerState.msg",
+    "/mnt/c/RNDprojects/ROS/ros2_control/controller_manager_msgs:msg/ChainConnection.msg",
+    "/mnt/c/RNDprojects/ROS/ros2_control/controller_manager_msgs:msg/HardwareComponentState.msg",
+    "/mnt/c/RNDprojects/ROS/ros2_control/controller_manager_msgs:msg/HardwareInterface.msg",
+    "/mnt/c/RNDprojects/ROS/ros2_control/controller_manager_msgs:msg/NamedLifecycleState.msg",
+    "/mnt/c/RNDprojects/ROS/ros2_control/controller_manager_msgs:msg/ControllerManagerActivity.msg",
+    "/mnt/c/RNDprojects/ROS/ros2_control/controller_manager_msgs:srv/ConfigureController.srv",
+    "/mnt/c/RNDprojects/ROS/ros2_control/controller_manager_msgs:srv/ListControllers.srv",
+    "/mnt/c/RNDprojects/ROS/ros2_control/controller_manager_msgs:srv/ListControllerTypes.srv",
+    "/mnt/c/RNDprojects/ROS/ros2_control/controller_manager_msgs:srv/ListHardwareComponents.srv",
+    "/mnt/c/RNDprojects/ROS/ros2_control/controller_manager_msgs:srv/ListHardwareInterfaces.srv",
+    "/mnt/c/RNDprojects/ROS/ros2_control/controller_manager_msgs:srv/LoadController.srv",
+    "/mnt/c/RNDprojects/ROS/ros2_control/controller_manager_msgs:srv/ReloadControllerLibraries.srv",
+    "/mnt/c/RNDprojects/ROS/ros2_control/controller_manager_msgs:srv/SetHardwareComponentState.srv",
+    "/mnt/c/RNDprojects/ROS/ros2_control/controller_manager_msgs:srv/SwitchController.srv",
+    "/mnt/c/RNDprojects/ROS/ros2_control/controller_manager_msgs:srv/UnloadController.srv"
+  ]
+}

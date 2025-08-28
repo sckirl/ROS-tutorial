@@ -1,0 +1,13 @@
+[0.873s] Invoking command in '/mnt/c/RNDprojects/ROS/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/RNDprojects/ROS/install/urdf_tutorial_r2d2:/mnt/c/RNDprojects/ROS/install/py_pubsub:/opt/ros/kilted /usr/bin/cmake /mnt/c/RNDprojects/ROS/ros2_control/ros2_control_test_assets -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets
+[2.914s] -- The CXX compiler identification is GNU 13.3.0
+[2.915s] -- Detecting CXX compiler ABI info
+[2.916s] -- Detecting CXX compiler ABI info - done
+[2.918s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.918s] -- Detecting CXX compile features
+[2.920s] -- Detecting CXX compile features - done
+[2.921s] -- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+[4.141s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.547s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.249s] -- Configuring done (6.3s)
+[7.838s] -- Generating done (0.5s)
+[8.018s] -- Build files have been written to: /mnt/c/RNDprojects/ROS/build/ros2_control_test_assets

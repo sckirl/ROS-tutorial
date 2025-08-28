@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/mnt/c/RNDprojects/ROS/ros2_control/ros2_control_test_assets" FILES "/mnt/c/RNDprojects/ROS/ros2_control/ros2_control_test_assets/package.xml" "DESTINATION" "share/ros2_control_test_assets")

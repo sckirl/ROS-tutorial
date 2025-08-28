@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/mnt/c/RNDprojects/ROS/ros2_control/joint_limits" FILES "/mnt/c/RNDprojects/ROS/build/joint_limits/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/joint_limits" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")

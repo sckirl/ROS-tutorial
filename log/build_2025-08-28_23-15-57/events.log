@@ -1,0 +1,566 @@
+[0.000000] (-) TimerEvent: {}
+[0.000373] (controller_manager_msgs) JobQueued: {'identifier': 'controller_manager_msgs', 'dependencies': OrderedDict()}
+[0.000589] (joint_limits) JobQueued: {'identifier': 'joint_limits', 'dependencies': OrderedDict()}
+[0.000819] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.001047] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.001258] (ros2_control_test_assets) JobQueued: {'identifier': 'ros2_control_test_assets', 'dependencies': OrderedDict()}
+[0.001459] (ros2_controllers_test_nodes) JobQueued: {'identifier': 'ros2_controllers_test_nodes', 'dependencies': OrderedDict()}
+[0.001681] (urdf_tutorial_r2d2) JobQueued: {'identifier': 'urdf_tutorial_r2d2', 'dependencies': OrderedDict()}
+[0.001959] (hardware_interface) JobQueued: {'identifier': 'hardware_interface', 'dependencies': OrderedDict({'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets'})}
+[0.002162] (rqt_joint_trajectory_controller) JobQueued: {'identifier': 'rqt_joint_trajectory_controller', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs'})}
+[0.002354] (controller_interface) JobQueued: {'identifier': 'controller_interface', 'dependencies': OrderedDict({'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface'})}
+[0.002535] (hardware_interface_testing) JobQueued: {'identifier': 'hardware_interface_testing', 'dependencies': OrderedDict({'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface'})}
+[0.002750] (transmission_interface) JobQueued: {'identifier': 'transmission_interface', 'dependencies': OrderedDict({'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface'})}
+[0.002996] (controller_manager) JobQueued: {'identifier': 'controller_manager', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing'})}
+[0.003203] (admittance_controller) JobQueued: {'identifier': 'admittance_controller', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager'})}
+[0.003406] (chained_filter_controller) JobQueued: {'identifier': 'chained_filter_controller', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager'})}
+[0.003626] (diff_drive_controller) JobQueued: {'identifier': 'diff_drive_controller', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager'})}
+[0.003828] (force_torque_sensor_broadcaster) JobQueued: {'identifier': 'force_torque_sensor_broadcaster', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager'})}
+[0.004011] (forward_command_controller) JobQueued: {'identifier': 'forward_command_controller', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager'})}
+[0.004202] (gpio_controllers) JobQueued: {'identifier': 'gpio_controllers', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager'})}
+[0.004416] (gps_sensor_broadcaster) JobQueued: {'identifier': 'gps_sensor_broadcaster', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager'})}
+[0.004656] (imu_sensor_broadcaster) JobQueued: {'identifier': 'imu_sensor_broadcaster', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager'})}
+[0.004858] (joint_state_broadcaster) JobQueued: {'identifier': 'joint_state_broadcaster', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager'})}
+[0.005063] (joint_trajectory_controller) JobQueued: {'identifier': 'joint_trajectory_controller', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager'})}
+[0.005256] (mecanum_drive_controller) JobQueued: {'identifier': 'mecanum_drive_controller', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager'})}
+[0.005450] (motion_primitives_forward_controller) JobQueued: {'identifier': 'motion_primitives_forward_controller', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager'})}
+[0.005619] (omni_wheel_drive_controller) JobQueued: {'identifier': 'omni_wheel_drive_controller', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager'})}
+[0.005798] (parallel_gripper_controller) JobQueued: {'identifier': 'parallel_gripper_controller', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager'})}
+[0.006066] (pid_controller) JobQueued: {'identifier': 'pid_controller', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager'})}
+[0.006270] (pose_broadcaster) JobQueued: {'identifier': 'pose_broadcaster', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager'})}
+[0.006552] (range_sensor_broadcaster) JobQueued: {'identifier': 'range_sensor_broadcaster', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager'})}
+[0.006822] (ros2controlcli) JobQueued: {'identifier': 'ros2controlcli', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager'})}
+[0.007069] (rqt_controller_manager) JobQueued: {'identifier': 'rqt_controller_manager', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager'})}
+[0.007349] (steering_controllers_library) JobQueued: {'identifier': 'steering_controllers_library', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager'})}
+[0.007541] (tricycle_controller) JobQueued: {'identifier': 'tricycle_controller', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager'})}
+[0.007764] (ackermann_steering_controller) JobQueued: {'identifier': 'ackermann_steering_controller', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager', 'steering_controllers_library': '/mnt/c/RNDprojects/ROS/install/steering_controllers_library'})}
+[0.007997] (bicycle_steering_controller) JobQueued: {'identifier': 'bicycle_steering_controller', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager', 'steering_controllers_library': '/mnt/c/RNDprojects/ROS/install/steering_controllers_library'})}
+[0.008209] (effort_controllers) JobQueued: {'identifier': 'effort_controllers', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager', 'forward_command_controller': '/mnt/c/RNDprojects/ROS/install/forward_command_controller'})}
+[0.008400] (position_controllers) JobQueued: {'identifier': 'position_controllers', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager', 'forward_command_controller': '/mnt/c/RNDprojects/ROS/install/forward_command_controller'})}
+[0.008611] (ros2_control) JobQueued: {'identifier': 'ros2_control', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'transmission_interface': '/mnt/c/RNDprojects/ROS/install/transmission_interface', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager', 'ros2controlcli': '/mnt/c/RNDprojects/ROS/install/ros2controlcli'})}
+[0.008840] (tricycle_steering_controller) JobQueued: {'identifier': 'tricycle_steering_controller', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager', 'steering_controllers_library': '/mnt/c/RNDprojects/ROS/install/steering_controllers_library'})}
+[0.009048] (velocity_controllers) JobQueued: {'identifier': 'velocity_controllers', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager', 'forward_command_controller': '/mnt/c/RNDprojects/ROS/install/forward_command_controller'})}
+[0.009245] (ros2_controllers) JobQueued: {'identifier': 'ros2_controllers', 'dependencies': OrderedDict({'controller_manager_msgs': '/mnt/c/RNDprojects/ROS/install/controller_manager_msgs', 'joint_limits': '/mnt/c/RNDprojects/ROS/install/joint_limits', 'ros2_control_test_assets': '/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets', 'hardware_interface': '/mnt/c/RNDprojects/ROS/install/hardware_interface', 'controller_interface': '/mnt/c/RNDprojects/ROS/install/controller_interface', 'hardware_interface_testing': '/mnt/c/RNDprojects/ROS/install/hardware_interface_testing', 'controller_manager': '/mnt/c/RNDprojects/ROS/install/controller_manager', 'admittance_controller': '/mnt/c/RNDprojects/ROS/install/admittance_controller', 'chained_filter_controller': '/mnt/c/RNDprojects/ROS/install/chained_filter_controller', 'diff_drive_controller': '/mnt/c/RNDprojects/ROS/install/diff_drive_controller', 'force_torque_sensor_broadcaster': '/mnt/c/RNDprojects/ROS/install/force_torque_sensor_broadcaster', 'forward_command_controller': '/mnt/c/RNDprojects/ROS/install/forward_command_controller', 'gpio_controllers': '/mnt/c/RNDprojects/ROS/install/gpio_controllers', 'gps_sensor_broadcaster': '/mnt/c/RNDprojects/ROS/install/gps_sensor_broadcaster', 'imu_sensor_broadcaster': '/mnt/c/RNDprojects/ROS/install/imu_sensor_broadcaster', 'joint_state_broadcaster': '/mnt/c/RNDprojects/ROS/install/joint_state_broadcaster', 'joint_trajectory_controller': '/mnt/c/RNDprojects/ROS/install/joint_trajectory_controller', 'mecanum_drive_controller': '/mnt/c/RNDprojects/ROS/install/mecanum_drive_controller', 'omni_wheel_drive_controller': '/mnt/c/RNDprojects/ROS/install/omni_wheel_drive_controller', 'parallel_gripper_controller': '/mnt/c/RNDprojects/ROS/install/parallel_gripper_controller', 'pid_controller': '/mnt/c/RNDprojects/ROS/install/pid_controller', 'pose_broadcaster': '/mnt/c/RNDprojects/ROS/install/pose_broadcaster', 'range_sensor_broadcaster': '/mnt/c/RNDprojects/ROS/install/range_sensor_broadcaster', 'steering_controllers_library': '/mnt/c/RNDprojects/ROS/install/steering_controllers_library', 'tricycle_controller': '/mnt/c/RNDprojects/ROS/install/tricycle_controller', 'ackermann_steering_controller': '/mnt/c/RNDprojects/ROS/install/ackermann_steering_controller', 'bicycle_steering_controller': '/mnt/c/RNDprojects/ROS/install/bicycle_steering_controller', 'effort_controllers': '/mnt/c/RNDprojects/ROS/install/effort_controllers', 'position_controllers': '/mnt/c/RNDprojects/ROS/install/position_controllers', 'tricycle_steering_controller': '/mnt/c/RNDprojects/ROS/install/tricycle_steering_controller', 'velocity_controllers': '/mnt/c/RNDprojects/ROS/install/velocity_controllers'})}
+[0.009446] (joint_limits) JobStarted: {'identifier': 'joint_limits'}
+[0.098563] (-) TimerEvent: {}
+[0.119638] (ros2_control_test_assets) JobStarted: {'identifier': 'ros2_control_test_assets'}
+[0.198659] (-) TimerEvent: {}
+[0.225482] (controller_manager_msgs) JobStarted: {'identifier': 'controller_manager_msgs'}
+[0.298767] (-) TimerEvent: {}
+[0.331363] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.398869] (-) TimerEvent: {}
+[0.438388] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.498923] (-) TimerEvent: {}
+[0.578500] (ros2_controllers_test_nodes) JobStarted: {'identifier': 'ros2_controllers_test_nodes'}
+[0.599023] (-) TimerEvent: {}
+[0.699465] (-) TimerEvent: {}
+[0.744705] (urdf_tutorial_r2d2) JobStarted: {'identifier': 'urdf_tutorial_r2d2'}
+[0.799517] (-) TimerEvent: {}
+[0.894177] (joint_limits) JobProgress: {'identifier': 'joint_limits', 'progress': 'cmake'}
+[0.899607] (-) TimerEvent: {}
+[0.930829] (joint_limits) Command: {'cmd': ['/usr/bin/cmake', '/mnt/c/RNDprojects/ROS/ros2_control/joint_limits', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/mnt/c/RNDprojects/ROS/install/joint_limits'], 'cwd': '/mnt/c/RNDprojects/ROS/build/joint_limits', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/kilted/share', 'USER': 'alvin', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/gz_sim_vendor/share/gz:/opt/ros/kilted/opt/sdformat_vendor/share/gz:/opt/ros/kilted/opt/gz_gui_vendor/share/gz:/opt/ros/kilted/opt/gz_transport_vendor/share/gz:/opt/ros/kilted/opt/gz_rendering_vendor/share/gz:/opt/ros/kilted/opt/gz_plugin_vendor/share/gz:/opt/ros/kilted/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/kilted/opt/gz_msgs_vendor/share/gz:/opt/ros/kilted/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/alvin', 'OLDPWD': '/mnt/c/RNDprojects', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/RNDprojects/testROS/install:/home/alvin/ros2_control_ws/install:/mnt/c/RNDprojects/ROS/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'alvin', 'NAME': 'blackbox', 'WSL_INTEROP': '/run/WSL/25354_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/kilted/opt/gz_msgs_vendor/bin:/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/opt/gz_ogre_next_vendor/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/alvin/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/alvin/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/alvin/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/alvin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/alvin/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': 'fe86bf0b-44cb-48aa-9312-06d6d5c663d1', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/mnt/c/RNDprojects/ROS/install/urdf_tutorial_r2d2:/mnt/c/RNDprojects/ROS/install/py_pubsub:/mnt/c/RNDprojects/ROS/install/my_package:/opt/ros/kilted', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/mnt/c/RNDprojects/ROS/build/joint_limits', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/RNDprojects/ROS/install/urdf_tutorial_r2d2/lib/python3.12/site-packages:/mnt/c/RNDprojects/ROS/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/mnt/c/RNDprojects/ROS/install/my_package:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/mnt/c/RNDprojects/ROS/install/urdf_tutorial_r2d2:/mnt/c/RNDprojects/ROS/install/py_pubsub:/opt/ros/kilted', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.954533] (ros2_control_test_assets) JobProgress: {'identifier': 'ros2_control_test_assets', 'progress': 'cmake'}
+[0.983620] (ros2_control_test_assets) Command: {'cmd': ['/usr/bin/cmake', '/mnt/c/RNDprojects/ROS/ros2_control/ros2_control_test_assets', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/mnt/c/RNDprojects/ROS/install/ros2_control_test_assets'], 'cwd': '/mnt/c/RNDprojects/ROS/build/ros2_control_test_assets', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/kilted/share', 'USER': 'alvin', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/gz_sim_vendor/share/gz:/opt/ros/kilted/opt/sdformat_vendor/share/gz:/opt/ros/kilted/opt/gz_gui_vendor/share/gz:/opt/ros/kilted/opt/gz_transport_vendor/share/gz:/opt/ros/kilted/opt/gz_rendering_vendor/share/gz:/opt/ros/kilted/opt/gz_plugin_vendor/share/gz:/opt/ros/kilted/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/kilted/opt/gz_msgs_vendor/share/gz:/opt/ros/kilted/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/alvin', 'OLDPWD': '/mnt/c/RNDprojects', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/RNDprojects/testROS/install:/home/alvin/ros2_control_ws/install:/mnt/c/RNDprojects/ROS/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'alvin', 'NAME': 'blackbox', 'WSL_INTEROP': '/run/WSL/25354_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/kilted/opt/gz_msgs_vendor/bin:/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/opt/gz_ogre_next_vendor/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/alvin/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/alvin/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/alvin/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/alvin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/alvin/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': 'fe86bf0b-44cb-48aa-9312-06d6d5c663d1', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/mnt/c/RNDprojects/ROS/install/urdf_tutorial_r2d2:/mnt/c/RNDprojects/ROS/install/py_pubsub:/mnt/c/RNDprojects/ROS/install/my_package:/opt/ros/kilted', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/mnt/c/RNDprojects/ROS/build/ros2_control_test_assets', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/RNDprojects/ROS/install/urdf_tutorial_r2d2/lib/python3.12/site-packages:/mnt/c/RNDprojects/ROS/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/mnt/c/RNDprojects/ROS/install/my_package:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/mnt/c/RNDprojects/ROS/install/urdf_tutorial_r2d2:/mnt/c/RNDprojects/ROS/install/py_pubsub:/opt/ros/kilted', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.993825] (controller_manager_msgs) JobProgress: {'identifier': 'controller_manager_msgs', 'progress': 'cmake'}
+[0.999700] (-) TimerEvent: {}
+[1.021856] (controller_manager_msgs) Command: {'cmd': ['/usr/bin/cmake', '/mnt/c/RNDprojects/ROS/ros2_control/controller_manager_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/mnt/c/RNDprojects/ROS/install/controller_manager_msgs'], 'cwd': '/mnt/c/RNDprojects/ROS/build/controller_manager_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/kilted/share', 'USER': 'alvin', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/gz_sim_vendor/share/gz:/opt/ros/kilted/opt/sdformat_vendor/share/gz:/opt/ros/kilted/opt/gz_gui_vendor/share/gz:/opt/ros/kilted/opt/gz_transport_vendor/share/gz:/opt/ros/kilted/opt/gz_rendering_vendor/share/gz:/opt/ros/kilted/opt/gz_plugin_vendor/share/gz:/opt/ros/kilted/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/kilted/opt/gz_msgs_vendor/share/gz:/opt/ros/kilted/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/alvin', 'OLDPWD': '/mnt/c/RNDprojects', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/RNDprojects/testROS/install:/home/alvin/ros2_control_ws/install:/mnt/c/RNDprojects/ROS/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'alvin', 'NAME': 'blackbox', 'WSL_INTEROP': '/run/WSL/25354_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/kilted/opt/gz_msgs_vendor/bin:/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/opt/gz_ogre_next_vendor/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/alvin/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/alvin/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/alvin/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/alvin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/alvin/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': 'fe86bf0b-44cb-48aa-9312-06d6d5c663d1', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/mnt/c/RNDprojects/ROS/install/urdf_tutorial_r2d2:/mnt/c/RNDprojects/ROS/install/py_pubsub:/mnt/c/RNDprojects/ROS/install/my_package:/opt/ros/kilted', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/mnt/c/RNDprojects/ROS/build/controller_manager_msgs', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/RNDprojects/ROS/install/urdf_tutorial_r2d2/lib/python3.12/site-packages:/mnt/c/RNDprojects/ROS/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/mnt/c/RNDprojects/ROS/install/my_package:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/mnt/c/RNDprojects/ROS/install/urdf_tutorial_r2d2:/mnt/c/RNDprojects/ROS/install/py_pubsub:/opt/ros/kilted', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[1.032674] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[1.057214] (my_package) Command: {'cmd': ['/usr/bin/cmake', '/mnt/c/RNDprojects/ROS/src/my_package', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/mnt/c/RNDprojects/ROS/install/my_package'], 'cwd': '/mnt/c/RNDprojects/ROS/build/my_package', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/kilted/share', 'USER': 'alvin', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/gz_sim_vendor/share/gz:/opt/ros/kilted/opt/sdformat_vendor/share/gz:/opt/ros/kilted/opt/gz_gui_vendor/share/gz:/opt/ros/kilted/opt/gz_transport_vendor/share/gz:/opt/ros/kilted/opt/gz_rendering_vendor/share/gz:/opt/ros/kilted/opt/gz_plugin_vendor/share/gz:/opt/ros/kilted/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/kilted/opt/gz_msgs_vendor/share/gz:/opt/ros/kilted/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/alvin', 'OLDPWD': '/mnt/c/RNDprojects', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/RNDprojects/testROS/install:/home/alvin/ros2_control_ws/install:/mnt/c/RNDprojects/ROS/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'alvin', 'NAME': 'blackbox', 'WSL_INTEROP': '/run/WSL/25354_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/kilted/opt/gz_msgs_vendor/bin:/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/opt/gz_ogre_next_vendor/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/alvin/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/alvin/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/alvin/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/alvin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/alvin/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': 'fe86bf0b-44cb-48aa-9312-06d6d5c663d1', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/mnt/c/RNDprojects/ROS/install/urdf_tutorial_r2d2:/mnt/c/RNDprojects/ROS/install/py_pubsub:/mnt/c/RNDprojects/ROS/install/my_package:/opt/ros/kilted', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/mnt/c/RNDprojects/ROS/build/my_package', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/RNDprojects/ROS/install/urdf_tutorial_r2d2/lib/python3.12/site-packages:/mnt/c/RNDprojects/ROS/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/mnt/c/RNDprojects/ROS/install/my_package:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/mnt/c/RNDprojects/ROS/install/urdf_tutorial_r2d2:/mnt/c/RNDprojects/ROS/install/py_pubsub:/opt/ros/kilted', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[1.099809] (-) TimerEvent: {}
+[1.200333] (-) TimerEvent: {}
+[1.300752] (-) TimerEvent: {}
+[1.401295] (-) TimerEvent: {}
+[1.501659] (-) TimerEvent: {}
+[1.602268] (-) TimerEvent: {}
+[1.702761] (-) TimerEvent: {}
+[1.803206] (-) TimerEvent: {}
+[1.903678] (-) TimerEvent: {}
+[2.004188] (-) TimerEvent: {}
+[2.104752] (-) TimerEvent: {}
+[2.205187] (-) TimerEvent: {}
+[2.305604] (-) TimerEvent: {}
+[2.406126] (-) TimerEvent: {}
+[2.506582] (-) TimerEvent: {}
+[2.607077] (-) TimerEvent: {}
+[2.707581] (-) TimerEvent: {}
+[2.808176] (-) TimerEvent: {}
+[2.908684] (-) TimerEvent: {}
+[3.009369] (-) TimerEvent: {}
+[3.020407] (joint_limits) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[3.022529] (joint_limits) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.024198] (joint_limits) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.025266] (joint_limits) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.026281] (joint_limits) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.027378] (joint_limits) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.028722] (joint_limits) StdoutLine: {'line': b'-- Found ros2_control_cmake: 0.2.1 (/opt/ros/kilted/share/ros2_control_cmake/cmake)\n'}
+[3.029817] (joint_limits) StdoutLine: {'line': b'-- Compiler warnings enabled for GNU\n'}
+[3.030826] (joint_limits) StdoutLine: {'line': b'-- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)\n'}
+[3.031916] (joint_limits) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)\n'}
+[3.033119] (ros2_control_test_assets) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[3.034474] (ros2_control_test_assets) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.035529] (ros2_control_test_assets) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.036685] (ros2_control_test_assets) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.037765] (ros2_control_test_assets) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.038677] (ros2_control_test_assets) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.039872] (ros2_control_test_assets) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)\n'}
+[3.040923] (controller_manager_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[3.042105] (controller_manager_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[3.043286] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.044428] (my_package) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /mnt/c/RNDprojects/ROS/build/my_package/CMakeCache.txt is different than the directory /home/sckirl/tutorial_ws/build/my_package where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[3.045630] (my_package) StderrLine: {'line': b'\x1b[0mCMake Error: The source "/mnt/c/RNDprojects/ROS/src/my_package/CMakeLists.txt" does not match the source "/home/sckirl/tutorial_ws/src/my_package/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.\x1b[0m\n'}
+[3.046934] (my_package) CommandEnded: {'returncode': 1}
+[3.109429] (-) TimerEvent: {}
+[3.165595] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.209525] (-) TimerEvent: {}
+[3.209916] (controller_manager_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.210800] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.211931] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.309567] (-) TimerEvent: {}
+[3.316693] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 1}
+[3.328035] (urdf_tutorial_r2d2) JobEnded: {'identifier': 'urdf_tutorial_r2d2', 'rc': 'SIGINT'}
+[3.333081] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 'SIGINT'}
+[3.338015] (ros2_controllers_test_nodes) JobEnded: {'identifier': 'ros2_controllers_test_nodes', 'rc': 'SIGINT'}
+[3.342756] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.409687] (-) TimerEvent: {}
+[3.510227] (-) TimerEvent: {}
+[3.610665] (-) TimerEvent: {}
+[3.711170] (-) TimerEvent: {}
+[3.811592] (-) TimerEvent: {}
+[3.912036] (-) TimerEvent: {}
+[4.012515] (-) TimerEvent: {}
+[4.112907] (-) TimerEvent: {}
+[4.188754] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.212981] (-) TimerEvent: {}
+[4.230177] (controller_manager_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.231161] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.232094] (controller_manager_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.259983] (ros2_control_test_assets) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[4.311350] (joint_limits) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[4.313050] (-) TimerEvent: {}
+[4.388426] (controller_manager_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)\n'}
+[4.413114] (-) TimerEvent: {}
+[4.513574] (-) TimerEvent: {}
+[4.614024] (-) TimerEvent: {}
+[4.665873] (ros2_control_test_assets) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.709644] (joint_limits) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.714115] (-) TimerEvent: {}
+[4.814499] (-) TimerEvent: {}
+[4.914964] (-) TimerEvent: {}
+[5.015439] (-) TimerEvent: {}
+[5.115933] (-) TimerEvent: {}
+[5.216441] (-) TimerEvent: {}
+[5.316964] (-) TimerEvent: {}
+[5.417369] (-) TimerEvent: {}
+[5.517753] (-) TimerEvent: {}
+[5.618234] (-) TimerEvent: {}
+[5.718665] (-) TimerEvent: {}
+[5.819104] (-) TimerEvent: {}
+[5.919578] (-) TimerEvent: {}
+[5.945567] (controller_manager_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[6.019646] (-) TimerEvent: {}
+[6.120130] (-) TimerEvent: {}
+[6.220620] (-) TimerEvent: {}
+[6.321110] (-) TimerEvent: {}
+[6.361408] (joint_limits) StdoutLine: {'line': b'-- Found pluginlib: 5.6.0 (/opt/ros/kilted/share/pluginlib/cmake)\n'}
+[6.421226] (-) TimerEvent: {}
+[6.423676] (controller_manager_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[6.521337] (-) TimerEvent: {}
+[6.621769] (-) TimerEvent: {}
+[6.722218] (-) TimerEvent: {}
+[6.822750] (-) TimerEvent: {}
+[6.923238] (-) TimerEvent: {}
+[7.023695] (-) TimerEvent: {}
+[7.124179] (-) TimerEvent: {}
+[7.224644] (-) TimerEvent: {}
+[7.245294] (joint_limits) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[7.324767] (-) TimerEvent: {}
+[7.329470] (joint_limits) StdoutLine: {'line': b'-- Found realtime_tools: 4.4.0 (/opt/ros/kilted/share/realtime_tools/cmake)\n'}
+[7.367705] (ros2_control_test_assets) StdoutLine: {'line': b'-- Configuring done (6.3s)\n'}
+[7.424889] (-) TimerEvent: {}
+[7.525402] (-) TimerEvent: {}
+[7.625914] (-) TimerEvent: {}
+[7.726422] (-) TimerEvent: {}
+[7.826901] (-) TimerEvent: {}
+[7.906063] (controller_manager_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.3.0 (/opt/ros/kilted/share/builtin_interfaces/cmake)\n'}
+[7.926990] (-) TimerEvent: {}
+[7.957467] (ros2_control_test_assets) StdoutLine: {'line': b'-- Generating done (0.5s)\n'}
+[8.027056] (-) TimerEvent: {}
+[8.093464] (joint_limits) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)\n'}
+[8.127130] (-) TimerEvent: {}
+[8.137017] (ros2_control_test_assets) StdoutLine: {'line': b'-- Build files have been written to: /mnt/c/RNDprojects/ROS/build/ros2_control_test_assets\n'}
+[8.141573] (ros2_control_test_assets) JobEnded: {'identifier': 'ros2_control_test_assets', 'rc': 'SIGINT'}
+[8.227222] (-) TimerEvent: {}
+[8.327695] (-) TimerEvent: {}
+[8.428179] (-) TimerEvent: {}
+[8.490879] (joint_limits) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)\n'}
+[8.528230] (-) TimerEvent: {}
+[8.628723] (-) TimerEvent: {}
+[8.729195] (-) TimerEvent: {}
+[8.829685] (-) TimerEvent: {}
+[8.838614] (controller_manager_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)\n'}
+[8.901102] (joint_limits) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.929754] (-) TimerEvent: {}
+[9.030199] (-) TimerEvent: {}
+[9.130689] (-) TimerEvent: {}
+[9.182034] (joint_limits) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.222513] (controller_manager_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)\n'}
+[9.230769] (-) TimerEvent: {}
+[9.331189] (-) TimerEvent: {}
+[9.431684] (-) TimerEvent: {}
+[9.532123] (-) TimerEvent: {}
+[9.571301] (controller_manager_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.632225] (-) TimerEvent: {}
+[9.732682] (-) TimerEvent: {}
+[9.833178] (-) TimerEvent: {}
+[9.854549] (controller_manager_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.933302] (-) TimerEvent: {}
+[10.033786] (-) TimerEvent: {}
+[10.134208] (-) TimerEvent: {}
+[10.201526] (controller_manager_msgs) StdoutLine: {'line': b'-- Found lifecycle_msgs: 2.3.0 (/opt/ros/kilted/share/lifecycle_msgs/cmake)\n'}
+[10.234266] (-) TimerEvent: {}
+[10.286123] (joint_limits) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)\n'}
+[10.334311] (-) TimerEvent: {}
+[10.395749] (joint_limits) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.3.2 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)\n'}
+[10.434420] (-) TimerEvent: {}
+[10.497269] (controller_manager_msgs) StdoutLine: {'line': b'-- Found std_msgs: 5.5.0 (/opt/ros/kilted/share/std_msgs/cmake)\n'}
+[10.534477] (-) TimerEvent: {}
+[10.601032] (controller_manager_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.7.1 (/opt/ros/kilted/share/rosidl_default_generators/cmake)\n'}
+[10.634547] (-) TimerEvent: {}
+[10.734947] (-) TimerEvent: {}
+[10.835378] (-) TimerEvent: {}
+[10.914544] (joint_limits) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[10.935443] (-) TimerEvent: {}
+[11.027985] (controller_manager_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.9.5 (/opt/ros/kilted/share/rosidl_adapter/cmake)\n'}
+[11.035541] (-) TimerEvent: {}
+[11.135980] (-) TimerEvent: {}
+[11.236413] (-) TimerEvent: {}
+[11.303524] (joint_limits) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[11.316122] (joint_limits) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[11.335524] (joint_limits) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.336425] (-) TimerEvent: {}
+[11.436832] (-) TimerEvent: {}
+[11.537392] (-) TimerEvent: {}
+[11.637861] (-) TimerEvent: {}
+[11.738335] (-) TimerEvent: {}
+[11.838806] (-) TimerEvent: {}
+[11.939266] (-) TimerEvent: {}
+[12.039728] (-) TimerEvent: {}
+[12.140238] (-) TimerEvent: {}
+[12.240689] (-) TimerEvent: {}
+[12.341127] (-) TimerEvent: {}
+[12.441578] (-) TimerEvent: {}
+[12.541951] (-) TimerEvent: {}
+[12.642383] (-) TimerEvent: {}
+[12.742856] (-) TimerEvent: {}
+[12.843311] (-) TimerEvent: {}
+[12.943787] (-) TimerEvent: {}
+[13.044235] (-) TimerEvent: {}
+[13.144652] (-) TimerEvent: {}
+[13.245099] (-) TimerEvent: {}
+[13.345487] (-) TimerEvent: {}
+[13.445928] (-) TimerEvent: {}
+[13.546436] (-) TimerEvent: {}
+[13.646934] (-) TimerEvent: {}
+[13.747372] (-) TimerEvent: {}
+[13.847832] (-) TimerEvent: {}
+[13.873397] (joint_limits) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 29.5.2 (/opt/ros/kilted/share/rclcpp_lifecycle/cmake)\n'}
+[13.947927] (-) TimerEvent: {}
+[14.048430] (-) TimerEvent: {}
+[14.148881] (-) TimerEvent: {}
+[14.224569] (joint_limits) StdoutLine: {'line': b'-- Found trajectory_msgs: 5.5.0 (/opt/ros/kilted/share/trajectory_msgs/cmake)\n'}
+[14.248959] (-) TimerEvent: {}
+[14.349377] (-) TimerEvent: {}
+[14.449776] (-) TimerEvent: {}
+[14.550223] (-) TimerEvent: {}
+[14.621136] (joint_limits) StdoutLine: {'line': b'-- Found urdf: 2.12.2 (/opt/ros/kilted/share/urdf/cmake)\n'}
+[14.650293] (-) TimerEvent: {}
+[14.750927] (-) TimerEvent: {}
+[14.851504] (-) TimerEvent: {}
+[14.952010] (-) TimerEvent: {}
+[15.052481] (-) TimerEvent: {}
+[15.152937] (-) TimerEvent: {}
+[15.253383] (-) TimerEvent: {}
+[15.344650] (joint_limits) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 2.7.3 (/opt/ros/kilted/share/ament_cmake_gmock/cmake)\n'}
+[15.353471] (-) TimerEvent: {}
+[15.453919] (-) TimerEvent: {}
+[15.486897] (joint_limits) StdoutLine: {'line': b'-- Found generate_parameter_library: 0.5.0 (/opt/ros/kilted/share/generate_parameter_library/cmake)\n'}
+[15.554044] (-) TimerEvent: {}
+[15.628626] (joint_limits) StdoutLine: {'line': b'-- Found parameter_traits: 0.5.0 (/opt/ros/kilted/share/parameter_traits/cmake)\n'}
+[15.654135] (-) TimerEvent: {}
+[15.754579] (-) TimerEvent: {}
+[15.855016] (-) TimerEvent: {}
+[15.955420] (-) TimerEvent: {}
+[16.055880] (-) TimerEvent: {}
+[16.156368] (-) TimerEvent: {}
+[16.243491] (joint_limits) StdoutLine: {'line': b'-- Found launch_testing_ament_cmake: 3.8.2 (/opt/ros/kilted/share/launch_testing_ament_cmake/cmake)\n'}
+[16.256436] (-) TimerEvent: {}
+[16.348523] (joint_limits) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/kilted/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[16.356497] (-) TimerEvent: {}
+[16.456867] (-) TimerEvent: {}
+[16.521645] (joint_limits) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[16.556940] (-) TimerEvent: {}
+[16.657373] (-) TimerEvent: {}
+[16.757802] (-) TimerEvent: {}
+[16.853713] (controller_manager_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.19.2 (/opt/ros/kilted/share/ament_cmake_cppcheck/cmake)\n'}
+[16.857863] (-) TimerEvent: {}
+[16.943720] (joint_limits) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[16.957957] (-) TimerEvent: {}
+[17.011050] (controller_manager_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.19.2 (/opt/ros/kilted/share/ament_cmake_cpplint/cmake)\n'}
+[17.058068] (-) TimerEvent: {}
+[17.158485] (-) TimerEvent: {}
+[17.166337] (controller_manager_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.19.2 (/opt/ros/kilted/share/ament_cmake_uncrustify/cmake)\n'}
+[17.258586] (-) TimerEvent: {}
+[17.320680] (controller_manager_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros_core: 0.14.3 (/opt/ros/kilted/share/ament_cmake_ros_core/cmake)\n'}
+[17.358654] (-) TimerEvent: {}
+[17.459137] (-) TimerEvent: {}
+[17.559566] (-) TimerEvent: {}
+[17.659984] (-) TimerEvent: {}
+[17.714977] (joint_limits) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[17.750399] (joint_limits) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[17.751251] (joint_limits) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[17.751987] (joint_limits) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[17.760010] (-) TimerEvent: {}
+[17.860416] (-) TimerEvent: {}
+[17.960821] (-) TimerEvent: {}
+[18.043241] (joint_limits) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 2.7.3 (/opt/ros/kilted/share/ament_cmake_gtest/cmake)\n'}
+[18.047758] (joint_limits) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/kilted/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[18.060844] (-) TimerEvent: {}
+[18.161218] (-) TimerEvent: {}
+[18.261606] (-) TimerEvent: {}
+[18.362002] (-) TimerEvent: {}
+[18.462444] (-) TimerEvent: {}
+[18.562888] (-) TimerEvent: {}
+[18.663270] (-) TimerEvent: {}
+[18.763700] (-) TimerEvent: {}
+[18.864215] (-) TimerEvent: {}
+[18.964679] (-) TimerEvent: {}
+[19.065090] (-) TimerEvent: {}
+[19.165530] (-) TimerEvent: {}
+[19.265912] (-) TimerEvent: {}
+[19.308489] (joint_limits) StdoutLine: {'line': b'-- Configuring done (18.3s)\n'}
+[19.365970] (-) TimerEvent: {}
+[19.466471] (-) TimerEvent: {}
+[19.567087] (-) TimerEvent: {}
+[19.667511] (-) TimerEvent: {}
+[19.767950] (-) TimerEvent: {}
+[19.868396] (-) TimerEvent: {}
+[19.968777] (-) TimerEvent: {}
+[20.069202] (-) TimerEvent: {}
+[20.169616] (-) TimerEvent: {}
+[20.270044] (-) TimerEvent: {}
+[20.370473] (-) TimerEvent: {}
+[20.470891] (-) TimerEvent: {}
+[20.571347] (-) TimerEvent: {}
+[20.671803] (-) TimerEvent: {}
+[20.772242] (-) TimerEvent: {}
+[20.872669] (-) TimerEvent: {}
+[20.973088] (-) TimerEvent: {}
+[21.073572] (-) TimerEvent: {}
+[21.174005] (-) TimerEvent: {}
+[21.274443] (-) TimerEvent: {}
+[21.374850] (-) TimerEvent: {}
+[21.475229] (-) TimerEvent: {}
+[21.575660] (-) TimerEvent: {}
+[21.676104] (-) TimerEvent: {}
+[21.776585] (-) TimerEvent: {}
+[21.877033] (-) TimerEvent: {}
+[21.877883] (joint_limits) StdoutLine: {'line': b'-- Generating done (2.5s)\n'}
+[21.977125] (-) TimerEvent: {}
+[22.077552] (-) TimerEvent: {}
+[22.177977] (-) TimerEvent: {}
+[22.278390] (-) TimerEvent: {}
+[22.378784] (-) TimerEvent: {}
+[22.479173] (-) TimerEvent: {}
+[22.519177] (joint_limits) StdoutLine: {'line': b'-- Build files have been written to: /mnt/c/RNDprojects/ROS/build/joint_limits\n'}
+[22.531873] (joint_limits) JobEnded: {'identifier': 'joint_limits', 'rc': 'SIGINT'}
+[22.579256] (-) TimerEvent: {}
+[22.679663] (-) TimerEvent: {}
+[22.780024] (-) TimerEvent: {}
+[22.880473] (-) TimerEvent: {}
+[22.980880] (-) TimerEvent: {}
+[23.081291] (-) TimerEvent: {}
+[23.181704] (-) TimerEvent: {}
+[23.282078] (-) TimerEvent: {}
+[23.382501] (-) TimerEvent: {}
+[23.482916] (-) TimerEvent: {}
+[23.583336] (-) TimerEvent: {}
+[23.683778] (-) TimerEvent: {}
+[23.784230] (-) TimerEvent: {}
+[23.884676] (-) TimerEvent: {}
+[23.985107] (-) TimerEvent: {}
+[24.085533] (-) TimerEvent: {}
+[24.185946] (-) TimerEvent: {}
+[24.270824] (controller_manager_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[24.286026] (-) TimerEvent: {}
+[24.386406] (-) TimerEvent: {}
+[24.486825] (-) TimerEvent: {}
+[24.587282] (-) TimerEvent: {}
+[24.687709] (-) TimerEvent: {}
+[24.788173] (-) TimerEvent: {}
+[24.888618] (-) TimerEvent: {}
+[24.989040] (-) TimerEvent: {}
+[25.089478] (-) TimerEvent: {}
+[25.189901] (-) TimerEvent: {}
+[25.290317] (-) TimerEvent: {}
+[25.390737] (-) TimerEvent: {}
+[25.491143] (-) TimerEvent: {}
+[25.591538] (-) TimerEvent: {}
+[25.691969] (-) TimerEvent: {}
+[25.792423] (-) TimerEvent: {}
+[25.892856] (-) TimerEvent: {}
+[25.993304] (-) TimerEvent: {}
+[26.093700] (-) TimerEvent: {}
+[26.194125] (-) TimerEvent: {}
+[26.294530] (-) TimerEvent: {}
+[26.394936] (-) TimerEvent: {}
+[26.495371] (-) TimerEvent: {}
+[26.595812] (-) TimerEvent: {}
+[26.696317] (-) TimerEvent: {}
+[26.796745] (-) TimerEvent: {}
+[26.897179] (-) TimerEvent: {}
+[26.972981] (controller_manager_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[26.997208] (-) TimerEvent: {}
+[27.097570] (-) TimerEvent: {}
+[27.197996] (-) TimerEvent: {}
+[27.298408] (-) TimerEvent: {}
+[27.398803] (-) TimerEvent: {}
+[27.499229] (-) TimerEvent: {}
+[27.599631] (-) TimerEvent: {}
+[27.700068] (-) TimerEvent: {}
+[27.800498] (-) TimerEvent: {}
+[27.900908] (-) TimerEvent: {}
+[28.001322] (-) TimerEvent: {}
+[28.101740] (-) TimerEvent: {}
+[28.202166] (-) TimerEvent: {}
+[28.302638] (-) TimerEvent: {}
+[28.403074] (-) TimerEvent: {}
+[28.503469] (-) TimerEvent: {}
+[28.603888] (-) TimerEvent: {}
+[28.704323] (-) TimerEvent: {}
+[28.804751] (-) TimerEvent: {}
+[28.905177] (-) TimerEvent: {}
+[29.005620] (-) TimerEvent: {}
+[29.106042] (-) TimerEvent: {}
+[29.206478] (-) TimerEvent: {}
+[29.306903] (-) TimerEvent: {}
+[29.374979] (controller_manager_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[29.406989] (-) TimerEvent: {}
+[29.507409] (-) TimerEvent: {}
+[29.607825] (-) TimerEvent: {}
+[29.708313] (-) TimerEvent: {}
+[29.808729] (-) TimerEvent: {}
+[29.909150] (-) TimerEvent: {}
+[30.009584] (-) TimerEvent: {}
+[30.109994] (-) TimerEvent: {}
+[30.210426] (-) TimerEvent: {}
+[30.310894] (-) TimerEvent: {}
+[30.411318] (-) TimerEvent: {}
+[30.486158] (controller_manager_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.19.2 (/opt/ros/kilted/share/ament_cmake_flake8/cmake)\n'}
+[30.511412] (-) TimerEvent: {}
+[30.611863] (-) TimerEvent: {}
+[30.642489] (controller_manager_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.19.2 (/opt/ros/kilted/share/ament_cmake_pep257/cmake)\n'}
+[30.711961] (-) TimerEvent: {}
+[30.812387] (-) TimerEvent: {}
+[30.912803] (-) TimerEvent: {}
+[31.013235] (-) TimerEvent: {}
+[31.113640] (-) TimerEvent: {}
+[31.214079] (-) TimerEvent: {}
+[31.314515] (-) TimerEvent: {}
+[31.414951] (-) TimerEvent: {}
+[31.515371] (-) TimerEvent: {}
+[31.615823] (-) TimerEvent: {}
+[31.716328] (-) TimerEvent: {}
+[31.816791] (-) TimerEvent: {}
+[31.917273] (-) TimerEvent: {}
+[32.017753] (-) TimerEvent: {}
+[32.118249] (-) TimerEvent: {}
+[32.218717] (-) TimerEvent: {}
+[32.314277] (controller_manager_msgs) StdoutLine: {'line': b'-- Configuring done (31.3s)\n'}
+[32.318826] (-) TimerEvent: {}
+[32.419312] (-) TimerEvent: {}
+[32.519779] (-) TimerEvent: {}
+[32.620227] (-) TimerEvent: {}
+[32.720701] (-) TimerEvent: {}
+[32.821159] (-) TimerEvent: {}
+[32.921622] (-) TimerEvent: {}
+[33.022092] (-) TimerEvent: {}
+[33.122572] (-) TimerEvent: {}
+[33.223025] (-) TimerEvent: {}
+[33.323500] (-) TimerEvent: {}
+[33.423944] (-) TimerEvent: {}
+[33.524416] (-) TimerEvent: {}
+[33.624854] (-) TimerEvent: {}
+[33.725317] (-) TimerEvent: {}
+[33.825787] (-) TimerEvent: {}
+[33.926333] (-) TimerEvent: {}
+[34.026791] (-) TimerEvent: {}
+[34.127247] (-) TimerEvent: {}
+[34.227757] (-) TimerEvent: {}
+[34.328217] (-) TimerEvent: {}
+[34.428670] (-) TimerEvent: {}
+[34.529121] (-) TimerEvent: {}
+[34.629578] (-) TimerEvent: {}
+[34.730031] (-) TimerEvent: {}
+[34.830499] (-) TimerEvent: {}
+[34.930953] (-) TimerEvent: {}
+[35.031395] (-) TimerEvent: {}
+[35.131846] (-) TimerEvent: {}
+[35.232338] (-) TimerEvent: {}
+[35.332803] (-) TimerEvent: {}
+[35.433253] (-) TimerEvent: {}
+[35.533691] (-) TimerEvent: {}
+[35.634164] (-) TimerEvent: {}
+[35.734647] (-) TimerEvent: {}
+[35.835125] (-) TimerEvent: {}
+[35.935588] (-) TimerEvent: {}
+[36.036040] (-) TimerEvent: {}
+[36.136545] (-) TimerEvent: {}
+[36.237014] (-) TimerEvent: {}
+[36.337489] (-) TimerEvent: {}
+[36.412901] (controller_manager_msgs) StdoutLine: {'line': b'-- Generating done (3.5s)\n'}
+[36.437565] (-) TimerEvent: {}
+[36.538039] (-) TimerEvent: {}
+[36.638471] (-) TimerEvent: {}
+[36.738925] (-) TimerEvent: {}
+[36.839367] (-) TimerEvent: {}
+[36.939834] (-) TimerEvent: {}
+[37.040358] (-) TimerEvent: {}
+[37.138332] (controller_manager_msgs) StdoutLine: {'line': b'-- Build files have been written to: /mnt/c/RNDprojects/ROS/build/controller_manager_msgs\n'}
+[37.140429] (-) TimerEvent: {}
+[37.150961] (controller_manager_msgs) JobEnded: {'identifier': 'controller_manager_msgs', 'rc': 'SIGINT'}
+[37.163811] (hardware_interface) JobSkipped: {'identifier': 'hardware_interface'}
+[37.164010] (rqt_joint_trajectory_controller) JobSkipped: {'identifier': 'rqt_joint_trajectory_controller'}
+[37.164215] (controller_interface) JobSkipped: {'identifier': 'controller_interface'}
+[37.164408] (hardware_interface_testing) JobSkipped: {'identifier': 'hardware_interface_testing'}
+[37.164592] (transmission_interface) JobSkipped: {'identifier': 'transmission_interface'}
+[37.164759] (controller_manager) JobSkipped: {'identifier': 'controller_manager'}
+[37.164927] (admittance_controller) JobSkipped: {'identifier': 'admittance_controller'}
+[37.165093] (chained_filter_controller) JobSkipped: {'identifier': 'chained_filter_controller'}
+[37.165255] (diff_drive_controller) JobSkipped: {'identifier': 'diff_drive_controller'}
+[37.165424] (force_torque_sensor_broadcaster) JobSkipped: {'identifier': 'force_torque_sensor_broadcaster'}
+[37.165593] (forward_command_controller) JobSkipped: {'identifier': 'forward_command_controller'}
+[37.165760] (gpio_controllers) JobSkipped: {'identifier': 'gpio_controllers'}
+[37.165923] (gps_sensor_broadcaster) JobSkipped: {'identifier': 'gps_sensor_broadcaster'}
+[37.166090] (imu_sensor_broadcaster) JobSkipped: {'identifier': 'imu_sensor_broadcaster'}
+[37.166252] (joint_state_broadcaster) JobSkipped: {'identifier': 'joint_state_broadcaster'}
+[37.166416] (joint_trajectory_controller) JobSkipped: {'identifier': 'joint_trajectory_controller'}
+[37.166582] (mecanum_drive_controller) JobSkipped: {'identifier': 'mecanum_drive_controller'}
+[37.166748] (motion_primitives_forward_controller) JobSkipped: {'identifier': 'motion_primitives_forward_controller'}
+[37.166913] (omni_wheel_drive_controller) JobSkipped: {'identifier': 'omni_wheel_drive_controller'}
+[37.167077] (parallel_gripper_controller) JobSkipped: {'identifier': 'parallel_gripper_controller'}
+[37.167244] (pid_controller) JobSkipped: {'identifier': 'pid_controller'}
+[37.167410] (pose_broadcaster) JobSkipped: {'identifier': 'pose_broadcaster'}
+[37.167606] (range_sensor_broadcaster) JobSkipped: {'identifier': 'range_sensor_broadcaster'}
+[37.167795] (ros2controlcli) JobSkipped: {'identifier': 'ros2controlcli'}
+[37.167979] (rqt_controller_manager) JobSkipped: {'identifier': 'rqt_controller_manager'}
+[37.168240] (steering_controllers_library) JobSkipped: {'identifier': 'steering_controllers_library'}
+[37.168427] (tricycle_controller) JobSkipped: {'identifier': 'tricycle_controller'}
+[37.168608] (ackermann_steering_controller) JobSkipped: {'identifier': 'ackermann_steering_controller'}
+[37.168776] (bicycle_steering_controller) JobSkipped: {'identifier': 'bicycle_steering_controller'}
+[37.168943] (effort_controllers) JobSkipped: {'identifier': 'effort_controllers'}
+[37.169107] (position_controllers) JobSkipped: {'identifier': 'position_controllers'}
+[37.169273] (ros2_control) JobSkipped: {'identifier': 'ros2_control'}
+[37.169453] (tricycle_steering_controller) JobSkipped: {'identifier': 'tricycle_steering_controller'}
+[37.169631] (velocity_controllers) JobSkipped: {'identifier': 'velocity_controllers'}
+[37.169795] (ros2_controllers) JobSkipped: {'identifier': 'ros2_controllers'}
+[37.169963] (-) EventReactorShutdown: {}
